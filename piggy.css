@@ -1,0 +1,103 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:hsl(230, 100%, 26%);
+    width: 100%;
+    min-width: 200px;
+    height: 100%;
+    font-family: Open Sans, Roboto, Gill Sans, Proxima Nova, Arial, "Helvetica Neue", sans-serif;
+    
+} 
+
+.piggy {
+   border: 3px solid white;
+   border-radius: 10px 10px 10px 0px;
+   width: 300px;
+
+   padding: 0px 40px 20px 10px;
+   background-color: white;
+   border-right: 10px;
+   margin: 20px 20px 20px 20px;
+   
+}
+
+.detInput {
+    margin: 5px 10px 19px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 5px 8px 5px;
+    width: 250px;
+    border-radius: 3px;
+    border: 2px solid hsl(100, 0%, 80%);
+    background-color: hsl(100, 0%, 80%);
+}
+
+h2 {
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 5px 10px 19px 10px;
+}
+.header{
+    text-align: center;
+    margin-bottom: 25px;
+    left: 10px;
+    position: relative;
+}
+
+h1 {
+    font-size: 18px;
+    margin: 20px 0px 0px 0px;
+    color: hsl(230, 100%, 26%);
+}
+p {
+    font-size: 10px;
+    margin-top: 2px;
+}
+
+.create-acc {
+    margin: 5px 20px 9px 10px;
+    width: 250px;
+    border: 8px solid hsl(230, 100%, 26%);
+    background-color: hsl(230, 100%, 26%);
+    border-radius: 3px 3px 3px 0px;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+}
+
+.Log-in {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#where {
+    margin-top: 5px;
+    width: 250px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: hsl(100, 0%, 80%);
+}
